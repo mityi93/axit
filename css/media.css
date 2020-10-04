@@ -1,4 +1,4 @@
-@media (min-width: 991px) {
+@media (min-width: 991px) and (max-width:1109px) {
     .container {
         width: 951px;
     }
@@ -11,7 +11,7 @@
     }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 767px) and (max-width: 990px) {
     .head {
         height: auto;
     }
@@ -80,7 +80,7 @@
     }
 }
 
-@media (min-width: 480px) {
+@media (min-width: 480px) and (max-width:766px) {
     .container {
         width: 460px;
         flex-direction: column;
