@@ -1,0 +1,185 @@
+@media (min-width: 991px) {
+    .container {
+        width: 951px;
+    }
+
+    .tab {
+        margin-right: 20px;
+    }
+    .options {
+        width: 280px;
+    }
+}
+
+@media (min-width: 767px) {
+    .head {
+        height: auto;
+    }
+    .container {
+        width: 737px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .head-title-text,
+    .text-soc-media {
+        text-align: center;
+    }
+
+    .bg-line {
+        margin: 0 auto;
+    }
+
+    #reg {
+        margin: 25px 0;
+    }
+    .social-media {
+        flex-direction: column;
+    }
+    .media-icon {
+        margin: 30px auto 0;
+    }
+    .tabs {
+        flex-direction: column;
+    }
+    .tab {
+        display: flex;
+        justify-content: center;
+        margin: 0 0 25px;
+    }
+    .btn-tab {
+        position: relative;
+        top: 35px;
+        left: 150px;
+        display: block;
+        margin: 0 auto;
+    }
+    .list-wrp,
+    .picture-wrp {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list-image,
+    .bg-list {
+        margin-bottom: 30px;
+    }
+    .title-list {
+        text-align: center;
+    }
+    .options,
+    .reviews {
+        width: 235px;
+    }
+    .user-data {
+        flex-direction: column;
+    }
+    #message {
+        margin: 0 0 35px 0;
+        height: 150px;
+    }
+}
+
+@media (min-width: 480px) {
+    .container {
+        width: 460px;
+        flex-direction: column;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    #nav {
+        margin-top: 30px;
+        margin-right: -40px;
+    }
+    #nav li a {
+        margin: 0 40px 10px 0;
+    }
+    .head {
+        height: auto;
+    }
+    .head-title-text {
+        width: auto;
+        text-align: center;
+    }
+    .bg-line {
+        margin: 0 auto;
+    }
+    #reg {
+        margin: 30px auto;
+    }
+    .social-media,
+    .tabs,
+    .text-img-block {
+        flex-direction: column;
+        text-align: center;
+    }
+    .media-icon li a {
+        margin-left: 20px;
+    }
+    .tab {
+        display: flex;
+        align-self: center;
+    }
+    .text-block {
+        width: auto;
+    }
+    .btn-tab {
+        margin-bottom: 20px;
+    }
+    .list-wrp,
+    .picture-wrp,
+    .options-wrp,
+    .reviews-wrp,
+    .user-data {
+        flex-direction: column;
+    }
+    .title-list {
+        text-align: center;
+    }
+    .bg-list {
+        margin-bottom: 20px;
+    }
+    .list-text>p {
+        text-align: center;
+    }
+    .options-section {
+        padding: 50px 0;
+    }
+    .service-wrp {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+        width: auto;
+    }
+    .service {
+        margin-bottom: 30px;
+    }
+    .options-wrp {
+        align-items: center;
+        padding: 0;
+    }
+    .options {
+        margin-bottom: 30px;
+    }
+    .reviews-wrp {
+        align-items: center;
+    }
+    .reviews {
+        width: auto;
+        margin-bottom: 30px;
+    }
+    #name-form, 
+    #email-form, 
+    #subject-form, 
+    #message {
+        width: 430px;
+    }
+    #message {
+        margin: 0;
+    }
+    #btn-contact {
+        margin-top: 30px;
+    }
+}
