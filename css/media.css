@@ -121,7 +121,7 @@
     .tab {
         display: flex;
         align-self: center;
-        margin-left: 0;
+        margin-right: 0;
     }
     .text-block {
         width: auto;
